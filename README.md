@@ -1,6 +1,6 @@
 Layrd is a tiny framework for composing vue3 composables, or any other functions returning objects.
 
-```
+```js
 // ./composables
 const a = (configA) => {
   return { a: 'a' }
