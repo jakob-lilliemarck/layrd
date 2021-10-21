@@ -2,11 +2,11 @@ Layrd is a tiny framework for composing vue3 composables, or any other functions
 
 ```js
 // ./composables
-const a = (configA) => {
+const composableA = (configA) => {
   return { a: 'a' }
 }
 
-const b = (globalConfig, layrd) => {
+const composableB = (globalConfig, layrd) => {
   // globalConfig & the layrd-object are passed as the second to last and the last arguments.
   return {
     b: 'b',
@@ -19,8 +19,8 @@ const b = (globalConfig, layrd) => {
 
 // ./elsewhere
 const { a, b } = layrd(globalConfig)
-  .layer(a, configA)
-  .layer(b)
+  .layer(composableA, configA)
+  .layer(composableB)
   .init(() => {
     // This callback is run right before returning the entire layrd-object.
     // May be used to set a semaphore "initialized"
