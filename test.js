@@ -18,7 +18,7 @@ test('Registers composable contents and initializes', () => {
   }
 
   const globalConfig = { name: 'myLayrdComposable '}
-  
+
   const { foo, bar } = layrd(globalConfig)
   .layer(fooComposable, { layername: 'foo' })
   .layer(barComposable, { layername: 'bar' })
@@ -45,5 +45,4 @@ test('Throws when composables exports has name-clashes', () => {
     .layer(barComposable, { layername: 'bar' })
     .init()
   }).toThrowError()
-
 })

@@ -1,9 +1,3 @@
-/*
-Consider:
-  - Implementing events?
-  - Getting rid on onInit
-  - Only passing the returns from the previous layer to the next layer
-*/
 
 /*
 Rewrite this module to:
