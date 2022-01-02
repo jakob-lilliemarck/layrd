@@ -1,4 +1,19 @@
 {
   "name": "layrd",
-  "version": "1.0.6"
+  "version": "1.0.6",
+  "keywords": [
+    "composition",
+    "composables",
+    "layer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakob-lilliemarck/layrd"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
 }
