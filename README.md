@@ -1,4 +1,6 @@
-Layrd is a tiny framework for composing vue3 composables, or any other functions returning objects.
+Layrd is a tiny framework for composing vue3 "composables", but it has no
+dependencies on vue.
+Use Layrd when you want to compose a larger composable from many smaller ones.
 
 ```js
 // ./composables
