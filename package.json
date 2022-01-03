@@ -1,7 +1,7 @@
 {
   "name": "layrd",
   "description": "A tiny framework for composing vue3 composables",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "Apache-2.0",
   "keywords": [
     "functional",
